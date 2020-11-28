@@ -5,6 +5,7 @@ class elevator implements elevatotbutton {
     final int maxweight=1200;//电梯承重上限
     final int beginfloor=1;//电梯初始楼层
     final int top_door=10;//电梯上限楼层
+    final int maxpeople=12;
 
     public void elevators() {//定义构造函数，初始化
         doornow=false;
@@ -65,6 +66,13 @@ class elevator implements elevatotbutton {
         }else {
             System.out.println("输入楼层有误");
         }
+    }
+
+    public void peoplenum() {
+        if ()
+    }
+    public void setWeight() {
+
     }
 
     public int getFloor(){
